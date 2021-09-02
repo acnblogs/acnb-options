@@ -1,0 +1,27 @@
+{
+  "name": "@awescnb/options",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awescnb/acnb-options.git"
+  },
+  "keywords": [],
+  "files": [
+    "src"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awescnb/acnb-options/issues"
+  },
+  "homepage": "https://github.com/awescnb/acnb-options#readme",
+  "dependencies": {
+    "@types/node": "^16.7.2",
+    "vite": "^2.5.1"
+  }
+}

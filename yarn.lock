@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@acnb/core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@acnb/core/-/core-1.0.1.tgz#7968c02ea852273440f9aeea270d3c42de171173"
+  integrity sha512-Swbw6txCOBBMBDSVHoWpk4zmF8+1Fel16BBfy10e37GnOXzJWKm2MCLaFlW4rXCoH5LJW2yAa95tFfk4XxQZaA==
+  dependencies:
+    vite "^2.5.1"
+
 "@types/node@^16.7.2":
   version "16.7.10"
   resolved "https://registry.nlark.com/@types/node/download/@types/node-16.7.10.tgz#7aa732cc47341c12a16b7d562f519c2383b6d4fc"

@@ -1,5 +1,5 @@
 {
-  "name": "@awescnb/options",
+  "name": "@acnb/options",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -14,13 +14,14 @@
   "files": [
     "src"
   ],
-  "author": "",
+  "author": "guangzan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/awescnb/acnb-options/issues"
   },
   "homepage": "https://github.com/awescnb/acnb-options#readme",
   "dependencies": {
+    "@acnb/core": "^1.0.1",
     "@types/node": "^16.7.2",
     "vite": "^2.5.1"
   }

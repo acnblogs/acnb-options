@@ -16,7 +16,7 @@ export const useBackgroundOptions = defineOptions('bodyBackground', {
   repeat: false,
 })
 
-export const useBarragesOptions = defineOptions({
+export const useBarragesOptions = defineOptions('barrages', {
   enable: false,
   opacity: 0.6,
   fontSize: '20px',

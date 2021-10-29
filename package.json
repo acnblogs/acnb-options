@@ -1,8 +1,7 @@
 {
   "name": "@acnb/options",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "vite build"
   },
@@ -11,6 +10,14 @@
     "url": "git+https://github.com/awescnb/acnb-options.git"
   },
   "keywords": [],
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/types.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
   "files": [
     "src"
   ],

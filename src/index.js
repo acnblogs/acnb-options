@@ -154,7 +154,7 @@ export const useNotationOptions = defineOptions('mode', {
 
 export const useNoticeOptions = defineOptions('notice', {
   enable: false,
-  text: [],
+  contents: [],
 })
 
 export const usePostBottomImageOptions = defineOptions('postBottomImage', {

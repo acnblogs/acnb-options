@@ -27,7 +27,7 @@ export const useBarragesOptions = defineOptions('barrages', {
 })
 
 export const useCatalogOptions = defineOptions('catalog', {
-  enable: true,
+  enable: false,
   position: 'left',
 })
 
@@ -68,7 +68,7 @@ export const useClickEffectsOptions = defineOptions('clickEffects', {
 })
 
 export const useCodeCopyOptions = defineOptions('codeCopy', {
-  enable: true,
+  enable: false,
 })
 
 export const useCodeHighlightOptions = defineOptions('codeHighlight', {
@@ -81,7 +81,7 @@ export const useCodeLangOptions = defineOptions('codeLang', {
 })
 
 export const useCodeLinenumbersOptions = defineOptions('codeLinenumbers', {
-  enable: true,
+  enable: false,
 })
 
 export const useDonationOptions = defineOptions('donation', {
@@ -90,18 +90,18 @@ export const useDonationOptions = defineOptions('donation', {
 })
 
 export const useEmojiOptions = defineOptions('emoji', {
-  enable: true,
+  enable: false,
   buttonIcon: '',
   emojiList: [],
 })
 
 export const useLinksOptions = defineOptions('links', {
-  enable: true,
+  enable: false,
   links: [],
 })
 
 export const useImagePreviewOptions = defineOptions('imagePreview', {
-  enable: true,
+  enable: false,
 })
 
 export const useLive2dOptions = defineOptions('live2d', {
@@ -122,14 +122,14 @@ export const useLockOptions = defineOptions('lock', {
 })
 
 export const useDarkModeOptions = defineOptions('mode', {
-  enable: true,
+  enable: false,
   darkDefault: false,
   autoDark: false,
   autoLight: false,
 })
 
 export const useMusicPlayerOptions = defineOptions('musicPlayer', {
-  enable: true,
+  enable: false,
   page: 'all',
   agent: 'pc',
   autoplay: false,
@@ -151,7 +151,7 @@ export const useMusicPlayerOptions = defineOptions('musicPlayer', {
 })
 
 export const useNotationOptions = defineOptions('mode', {
-  enable: true,
+  enable: false,
 })
 
 export const useNoticeOptions = defineOptions('notice', {
@@ -166,7 +166,7 @@ export const usePostBottomImageOptions = defineOptions('postBottomImage', {
 })
 
 export const useLicenseOptions = defineOptions('license', {
-  enable: true,
+  enable: false,
   license: true,
   licenseName: '',
   licenseLink: '',
@@ -196,18 +196,24 @@ export const useToolsOptions = defineOptions('tools', {
 })
 
 export const useGithubOptions = defineOptions('github', {
-  enable: true,
+  enable: false,
   color: '#ffb3cc',
   url: '',
 })
 
 export const useGiteeOptions = defineOptions('gitee', {
-  enable: true,
+  enable: false,
   color: '#ffb3cc',
   url: '',
 })
 
 export const usePostListImageOptions = defineOptions('postListImage', {
-  enable: true,
+  enable: false,
   images: [],
+})
+
+export const useWebTagOptions = defineOptions('webTag', {
+  enable: false,
+  title: '',
+  favicon: '',
 })

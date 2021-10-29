@@ -1,6 +1,6 @@
 import { defineOptions } from '@acnb/core'
 
-export const useThemeConfig = defineOptions('theme', {
+export const useThemeOptions = defineOptions('theme', {
   name: 'reacg',
   color: '#FFB3CC',
   avatar: '',
@@ -9,14 +9,14 @@ export const useThemeConfig = defineOptions('theme', {
   banner: '',
 })
 
-export const useBackgroundConfig = defineOptions('bodyBackground', {
+export const useBackgroundOptions = defineOptions('bodyBackground', {
   enable: false,
   value: '',
   opacity: 0.85,
   repeat: false,
 })
 
-export const useBarragesConfig = defineOptions({
+export const useBarragesOptions = defineOptions({
   enable: false,
   opacity: 0.6,
   fontSize: '20px',
@@ -26,12 +26,12 @@ export const useBarragesConfig = defineOptions({
   postPageBarrages: [],
 })
 
-export const useCatalogConfig = defineOptions('catalog', {
+export const useCatalogOptions = defineOptions('catalog', {
   enable: true,
   position: 'left',
 })
 
-export const useChartsConfig = defineOptions('chart', {
+export const useChartsOptions = defineOptions('chart', {
   enable: false,
   labels: ['Vue', 'React', 'Flutter', 'Java', 'NodeJs', 'TypeScript', 'CSS'],
   datasets: [
@@ -60,51 +60,51 @@ export const useChartsConfig = defineOptions('chart', {
   ],
 })
 
-export const useClickEffectsConfig = defineOptions('clickEffects', {
+export const useClickEffectsOptions = defineOptions('clickEffects', {
   enable: false,
   colors: [],
   size: 30,
   maxCount: 10,
 })
 
-export const useCodeCopyConfig = defineOptions('codeCopy', {
+export const useCodeCopyOptions = defineOptions('codeCopy', {
   enable: true,
 })
 
-export const useCodeHighlightConfig = defineOptions('codeHighlight', {
+export const useCodeHighlightOptions = defineOptions('codeHighlight', {
   dark: 'atomOneDark',
   light: 'atomOneLight',
 })
 
-export const useCodeLangConfig = defineOptions('codeLang', {
+export const useCodeLangOptions = defineOptions('codeLang', {
   enable: false,
 })
 
-export const useCodeLinenumbersConfig = defineOptions('codeLinenumbers', {
+export const useCodeLinenumbersOptions = defineOptions('codeLinenumbers', {
   enable: true,
 })
 
-export const useDonationConfig = defineOptions('donationConfig', {
+export const useDonationOptions = defineOptions('donation', {
   enable: false,
   qrcodes: [],
 })
 
-export const useEmojiConfig = defineOptions('emoji', {
+export const useEmojiOptions = defineOptions('emoji', {
   enable: true,
   buttonIcon: '',
   emojiList: [],
 })
 
-export const useLinksConfig = defineOptions('links', {
+export const useLinksOptions = defineOptions('links', {
   enable: true,
   links: [],
 })
 
-export const useImagePreviewConfig = defineOptions('imagePreview', {
+export const useImagePreviewOptions = defineOptions('imagePreview', {
   enable: true,
 })
 
-export const useLive2dConfig = defineOptions('live2d', {
+export const useLive2dOptions = defineOptions('live2d', {
   enable: false,
   page: 'all',
   agent: 'pc',
@@ -115,20 +115,20 @@ export const useLive2dConfig = defineOptions('live2d', {
   gap: 'default',
 })
 
-export const useLockConfig = defineOptions('lock', {
+export const useLockOptions = defineOptions('lock', {
   enable: false,
   background: '',
   strings: [],
 })
 
-export const useDarkModeConfig = defineOptions('mode', {
+export const useDarkModeOptions = defineOptions('mode', {
   enable: true,
   darkDefault: false,
   autoDark: false,
   autoLight: false,
 })
 
-export const useMusicPlayerConfig = defineOptions('musicPlayer', {
+export const useMusicPlayerOptions = defineOptions('musicPlayer', {
   enable: true,
   page: 'all',
   agent: 'pc',
@@ -150,22 +150,22 @@ export const useMusicPlayerConfig = defineOptions('musicPlayer', {
   ],
 })
 
-export const useNotationConfig = defineOptions('mode', {
+export const useNotationOptions = defineOptions('mode', {
   enable: true,
 })
 
-export const useNoticeConfig = defineOptions('notice', {
+export const useNoticeOptions = defineOptions('notice', {
   enable: false,
   text: [],
 })
 
-export const usePostBottomImageConfig = defineOptions('postBottomImage', {
+export const usePostBottomImageOptions = defineOptions('postBottomImage', {
   enable: false,
   img: '',
   height: '',
 })
 
-export const useLicenseConfig = defineOptions('license', {
+export const useLicenseOptions = defineOptions('license', {
   enable: true,
   license: true,
   licenseName: '',
@@ -173,41 +173,41 @@ export const useLicenseConfig = defineOptions('license', {
   contents: [],
 })
 
-export const usePostTopimageConfig = defineOptions('postTopImage', {
+export const usePostTopimageOptions = defineOptions('postTopImage', {
   enable: false,
   fixed: false,
   imgs: [],
 })
 
-export const useQrcodeConfig = defineOptions('qrcodeConfig', {
+export const useQrcodeOptions = defineOptions('qrcode', {
   enable: false,
   img: '',
   desc: '',
 })
 
-export const useSignatureConfig = defineOptions('signature', {
+export const useSignatureOptions = defineOptions('signature', {
   enable: false,
   contents: [],
 })
 
-export const useToolsConfig = defineOptions('tools', {
+export const useToolsOptions = defineOptions('tools', {
   initialOpen: true,
   mobileAutoClose: true,
 })
 
-export const useGithubConfig = defineOptions('github', {
+export const useGithubOptions = defineOptions('github', {
   enable: true,
   color: '#ffb3cc',
   url: '',
 })
 
-export const useGiteeConfig = defineOptions('gitee', {
+export const useGiteeOptions = defineOptions('gitee', {
   enable: true,
   color: '#ffb3cc',
   url: '',
 })
 
-export const usePostListImageConfig = defineOptions('postListImage', {
+export const usePostListImageOptions = defineOptions('postListImage', {
   enable: true,
   images: [],
 })

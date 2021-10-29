@@ -4,8 +4,6 @@ export const useThemeOptions = defineOptions('theme', {
   name: 'reacg',
   color: '#FFB3CC',
   avatar: '',
-  title: '',
-  favicon: '',
   banner: '',
 })
 

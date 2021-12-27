@@ -2,7 +2,7 @@
   "name": "@acnb/options",
   "version": "0.1.0",
   "description": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "./dist/index.es.js",
   "module": "./dist/index.es.js",
   "types": "./dist/types.d.ts",

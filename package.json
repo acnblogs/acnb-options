@@ -2,27 +2,34 @@
   "name": "@acnb/options",
   "version": "0.1.0",
   "description": "",
+  "license": "ISC",
+  "main": "./dist/index.es.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/types.d.ts",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build & cp ./src/types.d.ts dist/"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "author": {
+    "name": "guangzan",
+    "url": "https://www.cnblogs.com/guangzan",
+    "email": "guangzan1999@outlook.com"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/awescnb/acnb-options.git"
   },
-  "keywords": [],
-  "main": "./src/index.js",
-  "module": "./src/index.js",
-  "types": "./src/types.d.ts",
-  "exports": {
-    ".": {
-      "import": "./src/index.js"
-    }
-  },
-  "files": [
-    "src"
+  "keywords": [
+    "博客园"
   ],
-  "author": "guangzan",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/awescnb/acnb-options/issues"
   },

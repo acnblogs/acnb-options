@@ -4,7 +4,7 @@ export const useThemeOptions = defineOptions("theme", {
   name: "reacg",
   color: "#FFB3CC",
   avatar: "",
-  banner: "",
+  headerBackground: "",
 });
 
 export const useBackgroundOptions = defineOptions("bodyBackground", {

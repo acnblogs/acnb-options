@@ -7,7 +7,7 @@ const useThemeOptions = i("theme", {
   name: "reacg",
   color: "#FFB3CC",
   avatar: "",
-  banner: ""
+  headerBackground: ""
 });
 const useBackgroundOptions = i("bodyBackground", {
   enable: false,

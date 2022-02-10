@@ -77,7 +77,7 @@ interface EmojiOptions {
 }
 interface LinksOptions {
   enable: boolean;
-  links: Array<Link>;
+  value: Array<Link>;
 }
 interface ImagePreviewOptions {
   enable: boolean;

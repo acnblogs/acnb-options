@@ -95,7 +95,7 @@ export const useEmojiOptions = defineOptions("emoji", {
 
 export const useLinksOptions = defineOptions("links", {
   enable: false,
-  links: [],
+  value: [],
 });
 
 export const useImagePreviewOptions = defineOptions("imagePreview", {

@@ -215,3 +215,9 @@ export const useWebsiteTagOptions = defineOptions("webTag", {
   title: "",
   favicon: "",
 });
+
+export const useLockOptions = defineOptions("webTag", {
+  enable: false,
+  background: "",
+  strings: [],
+});

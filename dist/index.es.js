@@ -86,7 +86,7 @@ const useEmojiOptions = i("emoji", {
 });
 const useLinksOptions = i("links", {
   enable: false,
-  links: []
+  value: []
 });
 const useImagePreviewOptions = i("imagePreview", {
   enable: false

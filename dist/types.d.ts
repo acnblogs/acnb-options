@@ -15,7 +15,7 @@ type Lrc = {
 };
 type Link = {
   name: string;
-  url: string;
+  link: string;
 };
 interface ThemeOptions {
   name: string;
@@ -163,6 +163,12 @@ interface WebsiteTagOptions {
   title: string;
   favicon: string;
 }
+interface LockOptions {
+  enable: boolean;
+  background: string;
+  strings: Array<string>;
+}
+
 /**
  * 主题基本配置
  */
@@ -343,3 +349,9 @@ export declare const usePostListImageOptions: (
 export declare const useWebsiteTagOptions: (
   options: Partial<WebsiteTagOptions>
 ) => WebsiteTagOptions;
+/**
+ * 锁屏配置
+ */
+export declare const useLockOptions: (
+  options: Partial<LockOptions>
+) => LockOptions;

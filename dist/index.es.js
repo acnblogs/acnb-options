@@ -189,4 +189,9 @@ const useWebsiteTagOptions = i("webTag", {
   title: "",
   favicon: ""
 });
-export { useBackgroundOptions, useBarragesOptions, useCatalogOptions, useChartsOptions, useClickEffectsOptions, useCodeCopyOptions, useCodeHighlightOptions, useCodeLangOptions, useCodeLinenumbersOptions, useDarkModeOptions, useDonationOptions, useEmojiOptions, useGiteeOptions, useGithubOptions, useImagePreviewOptions, useLicenseOptions, useLinksOptions, useLive2dOptions, useLockScreenOptions, useMusicPlayerOptions, useNotationOptions, useNoticeOptions, usePostBottomImageOptions, usePostListImageOptions, usePostTopImageOptions, useQrcodeOptions, useSignatureOptions, useThemeOptions, useToolsOptions, useWebsiteTagOptions };
+const useLockOptions = i("webTag", {
+  enable: false,
+  background: "",
+  strings: []
+});
+export { useBackgroundOptions, useBarragesOptions, useCatalogOptions, useChartsOptions, useClickEffectsOptions, useCodeCopyOptions, useCodeHighlightOptions, useCodeLangOptions, useCodeLinenumbersOptions, useDarkModeOptions, useDonationOptions, useEmojiOptions, useGiteeOptions, useGithubOptions, useImagePreviewOptions, useLicenseOptions, useLinksOptions, useLive2dOptions, useLockOptions, useLockScreenOptions, useMusicPlayerOptions, useNotationOptions, useNoticeOptions, usePostBottomImageOptions, usePostListImageOptions, usePostTopImageOptions, useQrcodeOptions, useSignatureOptions, useThemeOptions, useToolsOptions, useWebsiteTagOptions };

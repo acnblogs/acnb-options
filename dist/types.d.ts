@@ -168,6 +168,9 @@ interface LockOptions {
   background: string;
   strings: Array<string>;
 }
+interface CodeTrafficLightOptions {
+  enable: boolean;
+}
 
 /**
  * 主题基本配置
@@ -355,3 +358,9 @@ export declare const useWebsiteTagOptions: (
 export declare const useLockOptions: (
   options: Partial<LockOptions>
 ) => LockOptions;
+/**
+ * 代码块红绿灯
+ */
+export declare const useCodeTrafficLightOptions: (
+  options: Partial<CodeTrafficLightOptions>
+) => CodeTrafficLightOptions;

@@ -194,4 +194,7 @@ const useLockOptions = i("webTag", {
   background: "",
   strings: []
 });
-export { useBackgroundOptions, useBarragesOptions, useCatalogOptions, useChartsOptions, useClickEffectsOptions, useCodeCopyOptions, useCodeHighlightOptions, useCodeLangOptions, useCodeLinenumbersOptions, useDarkModeOptions, useDonationOptions, useEmojiOptions, useGiteeOptions, useGithubOptions, useImagePreviewOptions, useLicenseOptions, useLinksOptions, useLive2dOptions, useLockOptions, useLockScreenOptions, useMusicPlayerOptions, useNotationOptions, useNoticeOptions, usePostBottomImageOptions, usePostListImageOptions, usePostTopImageOptions, useQrcodeOptions, useSignatureOptions, useThemeOptions, useToolsOptions, useWebsiteTagOptions };
+const useCodeTrafficLightOptions = i("codeTrafficLight", {
+  enable: false
+});
+export { useBackgroundOptions, useBarragesOptions, useCatalogOptions, useChartsOptions, useClickEffectsOptions, useCodeCopyOptions, useCodeHighlightOptions, useCodeLangOptions, useCodeLinenumbersOptions, useCodeTrafficLightOptions, useDarkModeOptions, useDonationOptions, useEmojiOptions, useGiteeOptions, useGithubOptions, useImagePreviewOptions, useLicenseOptions, useLinksOptions, useLive2dOptions, useLockOptions, useLockScreenOptions, useMusicPlayerOptions, useNotationOptions, useNoticeOptions, usePostBottomImageOptions, usePostListImageOptions, usePostTopImageOptions, useQrcodeOptions, useSignatureOptions, useThemeOptions, useToolsOptions, useWebsiteTagOptions };

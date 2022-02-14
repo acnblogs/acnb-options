@@ -221,3 +221,7 @@ export const useLockOptions = defineOptions("webTag", {
   background: "",
   strings: [],
 });
+
+export const useCodeTrafficLightOptions = defineOptions("codeTrafficLight", {
+  enable: false,
+});

@@ -58,7 +58,7 @@ export const useChartsOptions = defineOptions("chart", {
   ],
 });
 
-export const useClickEffectsOptions = defineOptions("clickEffects", {
+export const useClickEffectsOptions = defineOptions(["clickEffects", "click"], {
   enable: false,
   colors: [],
   size: 30,
@@ -69,18 +69,24 @@ export const useCodeCopyOptions = defineOptions("codeCopy", {
   enable: false,
 });
 
-export const useCodeHighlightOptions = defineOptions("codeHighlight", {
-  dark: "atomOneDark",
-  light: "atomOneLight",
-});
+export const useCodeHighlightOptions = defineOptions(
+  ["codeHighlight", "highLight"],
+  {
+    dark: "atomOneDark",
+    light: "atomOneLight",
+  }
+);
 
 export const useCodeLangOptions = defineOptions("codeLang", {
   enable: false,
 });
 
-export const useCodeLinenumbersOptions = defineOptions("codeLinenumbers", {
-  enable: false,
-});
+export const useCodeLinenumbersOptions = defineOptions(
+  ["codeLinenumbers", "lineNumbers"],
+  {
+    enable: false,
+  }
+);
 
 export const useDonationOptions = defineOptions("donation", {
   enable: false,

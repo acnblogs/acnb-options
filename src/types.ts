@@ -163,190 +163,128 @@ interface WebsiteTagOptions {
 interface CodeTrafficLightOptions {
   enable: boolean
 }
-
+type GenericUseFn<T> = (arg: Partial<T>) => T
 /**
  * 主题基本配置
  */
-export type UseThemeOptions = (
-  options: Partial<ThemeOptions>
-) => ThemeOptions
+export type UseThemeOptions = GenericUseFn<ThemeOptions>
 /**
  * 背景配置
  */
-export type UseBackgroundOptions = (
-  options: Partial<BackgroundOptions>
-) => BackgroundOptions
+export type UseBackgroundOptions = GenericUseFn<BackgroundOptions>
 /**
  * 弹幕配置
  */
-export type UseBarragesOptions = (
-  options: Partial<BarragesOptions>
-) => BarragesOptions
+export type UseBarragesOptions = GenericUseFn<BarragesOptions>
 /**
  * 博文目录配置
  */
-export type UseCatalogOptions = (
-  options: Partial<CatalogOptions>
-) => CatalogOptions
+export type UseCatalogOptions = GenericUseFn<CatalogOptions>
 /**
  * 图表配置
  */
-export type UseChartsOptions = (
-  options: Partial<ChartsOptions>
-) => ChartsOptions
+export type UseChartsOptions = GenericUseFn<ChartsOptions>
 /**
  * 点击特效配置
  */
-export type UseClickEffectsOptions = (
-  options: Partial<ClickEffectsOptions>
-) => ClickEffectsOptions
+export type UseClickEffectsOptions = GenericUseFn<ClickEffectsOptions>
 /**
  * 代码块复制配置
  */
-export type UseCodeCopyOptions = (
-  options: Partial<CodeCopyOptions>
-) => CodeCopyOptions
+export type UseCodeCopyOptions = GenericUseFn<CodeCopyOptions>
 /**
  * 代码块高亮主题配置
  */
-export type UseCodeHighlightOptions = (
-  options: Partial<CodeHighlightOptions>
-) => CodeHighlightOptions
+export type UseCodeHighlightOptions = GenericUseFn<CodeHighlightOptions>
 /**
  * 代码块语言配置
  */
-export type UseCodeLangOptions = (
-  options: Partial<CodeLangOptions>
-) => CodeLangOptions
+export type UseCodeLangOptions = GenericUseFn<CodeLangOptions>
 /**
  * 代码块行号配置
  */
-export type UseCodeLinenumbersOptions = (
-  options: Partial<CodeLinenumbersOptions>
-) => CodeLinenumbersOptions
+export type UseCodeLinenumbersOptions = GenericUseFn<CodeLinenumbersOptions>
 /**
  * 捐赠配置
  */
-export type UseDonationOptions = (
-  options: Partial<DonationOptions>
-) => DonationOptions
+export type UseDonationOptions = GenericUseFn<DonationOptions>
 /**
  * 表情输入配置
  */
-export type UseEmojiOptions = (
-  options: Partial<EmojiOptions>
-) => EmojiOptions
+export type UseEmojiOptions = GenericUseFn<EmojiOptions>
 /**
  * 自定义链接配置
  */
-export type UseLinksOptions = (
-  options: Partial<LinksOptions>
-) => LinksOptions
+export type UseLinksOptions = GenericUseFn<LinksOptions>
 /**
  * 图片查看配置
  */
-export type UseImagePreviewOptions = (
-  options: Partial<ImagePreviewOptions>
-) => ImagePreviewOptions
+export type UseImagePreviewOptions = GenericUseFn<ImagePreviewOptions>
 /**
  * live2d 配置
  */
-export type UseLive2dOptions = (
-  options: Partial<Live2dOptions>
-) => Live2dOptions
+export type UseLive2dOptions = GenericUseFn<Live2dOptions>
 /**
  * 锁屏配置
  */
-export type UseLockScreenOptions = (
-  options: Partial<LockScreenOptions>
-) => LockScreenOptions
+export type UseLockScreenOptions = GenericUseFn<LockScreenOptions>
 /**
  * 深色模式配置
  */
-export type UseDarkModeOptions = (
-  options: Partial<DarkModeOptions>
-) => DarkModeOptions
+export type UseDarkModeOptions = GenericUseFn<DarkModeOptions>
 /**
  * 音乐播放器配置
  */
-export type UseMusicPlayerOptions = (
-  options: Partial<MusicPlayerOptions>
-) => MusicPlayerOptions
+export type UseMusicPlayerOptions = GenericUseFn<MusicPlayerOptions>
 /**
  * 笔注配置
  */
-export type UseNotationOptions = (
-  options: Partial<NotationOptions>
-) => NotationOptions
+export type UseNotationOptions = GenericUseFn<NotationOptions>
 /**
  * 公告配置
  */
-export type UseNoticeOptions = (
-  options: Partial<NoticeOptions>
-) => NoticeOptions
+export type UseNoticeOptions = GenericUseFn<NoticeOptions>
 /**
  * 博文底部图片配置
  */
-export type UsePostBottomImageOptions = (
-  options: Partial<PostBottomImageOptions>
-) => PostBottomImageOptions
+export type UsePostBottomImageOptions = GenericUseFn<PostBottomImageOptions>
 /**
  * 版权配置
  */
-export type UseLicenseOptions = (
-  options: Partial<LicenseOptions>
-) => LicenseOptions
+export type UseLicenseOptions = GenericUseFn<LicenseOptions>
 /**
  * 博文顶部图片配置
  */
-export type UsePostTopImageOptions = (
-  options: Partial<PostTopImageOptions>
-) => PostTopImageOptions
+export type UsePostTopImageOptions = GenericUseFn<PostTopImageOptions>
 /**
  * 二维码配置
  */
-export type UseQrcodeOptions = (
-  options: Partial<QrcodeOptions>
-) => QrcodeOptions
+export type UseQrcodeOptions = GenericUseFn<QrcodeOptions>
 /**
  * 个性签名配置
  */
-export type UseSignatureOptions = (
-  options: Partial<SignatureOptions>
-) => SignatureOptions
+export type UseSignatureOptions = GenericUseFn<SignatureOptions>
 /**
  * 工具栏配置
  */
-export type UseToolsOptions = (
-  options: Partial<ToolsOptions>
-) => ToolsOptions
+export type UseToolsOptions = GenericUseFn<ToolsOptions>
 /**
  * Github 配置
  */
-export type UseGithubOptions = (
-  options: Partial<GithubOptions>
-) => GithubOptions
+export type UseGithubOptions = GenericUseFn<GithubOptions>
 /**
  * Gitee 配置
  */
-export type UseGiteeOptions = (
-  options: Partial<GiteeOptions>
-) => GiteeOptions
+export type UseGiteeOptions = GenericUseFn<GiteeOptions>
 /**
  * 博文列表图片配置
  */
-export type UsePostListImageOptions = (
-  options: Partial<PostListImageOptions>
-) => PostListImageOptions
+export type UsePostListImageOptions = GenericUseFn<PostListImageOptions>
 /**
  * 站点标签配置
  */
-export type UseWebsiteTagOptions = (
-  options: Partial<WebsiteTagOptions>
-) => WebsiteTagOptions
+export type UseWebsiteTagOptions = GenericUseFn<WebsiteTagOptions>
 /**
  * 代码块红绿灯
  */
-export type UseCodeTrafficLightOptions = (
-  options: Partial<CodeTrafficLightOptions>
-) => CodeTrafficLightOptions
+export type UseCodeTrafficLightOptions = GenericUseFn<CodeTrafficLightOptions>

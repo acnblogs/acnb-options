@@ -110,6 +110,7 @@ interface NotationOptions {
 }
 interface NoticeOptions {
   enable: boolean
+  contents: string[]
 }
 interface PostBottomImageOptions {
   enable: boolean

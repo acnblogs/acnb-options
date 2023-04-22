@@ -42,7 +42,7 @@
     "build": "rimraf dist && unbuild",
     "lint": "eslint .",
     "test": "vitest",
-    "release": "bumpp --commit --push --tag && pnpm publish"
+    "release": "npm run build;bumpp --commit --push --tag && pnpm publish"
   },
   "bugs": {
     "url": "https://github.com/cnbloglabs/options/issues"

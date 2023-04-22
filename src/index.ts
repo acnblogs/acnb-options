@@ -65,7 +65,7 @@ export const useCatalogOptions: UseCatalogOptions = defineOptions('catalog', {
   position: 'left',
 })
 export const useChartsOptions: UseChartsOptions = defineOptions(
-  ['chart', 'cart'],
+  ['chart', 'charts'],
   {
     enable: false,
     labels: ['Vue', 'React', 'Flutter', 'Java', 'NodeJs', 'TypeScript', 'CSS'],
